@@ -5,13 +5,18 @@ export default function HeroSection() {
         <div className="hero--section-content">
           <p className="section--title"> Hey, I'm Sara</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <span className="hero--section-title--color">Junior Software</span>{" "}
             <br />
             Developer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            Aspiring Junior Software Developer with a passion for innovation and
+            a solid foundation in Full Stack Development.
+            <br />
+            I'm eager to bring creativity and problem-solving skills to dynamic
+            tech projects.
+            <br />
+            Let's connect and build impactful web solutions together!
           </p>
         </div>
         <button className="btn btn-primary">Get In Touch</button>
