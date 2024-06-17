@@ -16,7 +16,7 @@ export default function HeroSection() {
             I'm eager to bring creativity and problem-solving skills to dynamic
             tech projects.
             <br />
-            Let's connect and build impactful web solutions together!
+            Let's connect and build impactful solutions together!
           </p>
         </div>
         <button className="btn btn-primary">Get In Touch</button>

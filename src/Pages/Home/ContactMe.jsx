@@ -2,10 +2,10 @@ export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <h1>Contact Me</h1>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          Feel free to reach out to me for collaboration, opportunities, or any
+          inquiries—I'm excited to connect with you!
         </p>
       </div>
       <form className="contact--form--container">
