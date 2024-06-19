@@ -22,7 +22,7 @@ p {
   --primary: #072a40;
   --heading-color: hsl(236, 17%, 19%);
   --bg-shade: #f5fcff;
-  --github: #e62872;
+  --github: #072a40;
   --darkblue: #072a40;
   --black: #000000;
   --white: #ccd9e2;
@@ -144,14 +144,6 @@ h2 {
   align-items: flex-start;
   margin-bottom: 30px;
 }
-/* Portfolio, Testimonial & Contact Me */
-/* .sub--title {
-  color: var(--heading-color);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-} */
-/* Section Titles Ends */
 
 /* Navbar Style Start */
 .navbar {
@@ -211,6 +203,8 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
+  /* text-align: center;
+  align-items: center; */
 }
 .hero--section--content--box > button {
   margin-top: 21.333px;
@@ -230,7 +224,8 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .hero--section--img {
   display: flex;
@@ -315,15 +310,13 @@ h2 {
 
 /* About Us */
 .about--section {
-  display: grid;
+  display: flex;
   padding: 133.3px 85.3px;
-  align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
-}
-.about--section--img > img {
-  width: 100%;
-  height: 100%;
+  margin-right: 250px;
+  margin-left: 250px;
+  text-align: justify;
 }
 /* About Us Ends */
 

@@ -1,12 +1,8 @@
 export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
-      <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
-      </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          {/* <p className="section--title">About</p> */}
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
             Hello! I'm an aspiring Junior Software Developer with a deep passion
@@ -16,8 +12,7 @@ export default function AboutMe() {
             <br />
             <br /> As a certified Full Stack Developer, I've honed my technical
             abilities through continuous learning and hands-on projects, always
-            eager to tackle new challenges and contribute to impactful tech
-            solutions.
+            eager to tackle new challenges.
             <br />
             <br /> Before transitioning to software development, I worked as a
             Freelance Translator, ELICOS Teacher, and Bar Supervisor & Manager.
