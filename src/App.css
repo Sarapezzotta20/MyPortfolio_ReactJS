@@ -314,8 +314,8 @@ h2 {
   padding: 133.3px 85.3px;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
-  margin-right: 250px;
-  margin-left: 250px;
+  margin-right: 100px;
+  margin-left: 400px;
   text-align: justify;
 }
 /* About Us Ends */
