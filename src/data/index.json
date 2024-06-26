@@ -3,22 +3,22 @@
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "Weather Forecast App",
+      "description": "Developed a weather forcast application using external API to fetch real-time weather data based on user input. Implemented asynchronous JavaScript techniques to handle API requests and responses, enhancing user experience.",
       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "Blog Platform",
+      "description": "Designed and implemented a blog platform from scratch using the MERN stack (MongoDB, Express.js, React.js, Node.js). Developed user authentication and authorization functionalities, allowing users to create, edit, and delete blog posts securely.",
       "link": "View In Github"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "Online Quiz Application",
+      "description": "Created an interactive online quiz application using React.js for the front end and Node.js for the back end. Implemented features such as multiple-choice questions, scoring, and feedback mechanisms to enhance user engagement and learning experience.",
       "link": "View In Github"
     }
   ]
