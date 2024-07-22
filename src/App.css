@@ -237,85 +237,14 @@ h2 {
 }
 /* Hero Section Style Ends */
 
-/* Skills Section Style */
-.skills--section {
-  display: flex;
-  padding: 149.33px 85.33px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 106.667px;
-}
-.skills--section--heading {
-  color: var(--heading-color);
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
-}
-.skills--section--container {
-  display: grid;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 42.6px;
-  grid-template-columns: repeat(4, 1fr);
-}
-.skills--section--card {
-  display: flex;
-  padding: 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 0 0;
-  border-radius: 10.6px;
-  background: var(--bg-shade);
-  min-height: 250px;
-}
-.skills--section--card:hover {
-  border-bottom: 4px solid var(--primary);
-}
-.skills--section--card:hover .skills--section--description {
-  color: var(--darkblue);
-}
-.skills--section--img {
-  display: flex;
-  padding: 13.3px;
-  justify-content: center;
-  align-items: center;
-  gap: 13.3px;
-  border-radius: 10.6px;
-  background: #fff;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
-}
-.skills--section--card--content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  align-self: stretch;
-}
-.skills--section--title {
-  color: var(--heading-color);
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 45px;
-}
-.skills--section--description {
-  color: var(--black);
-  font-size: 21.3px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-}
-/* Skills Style Ends */
-
 /* About Us */
 .about--section {
   display: flex;
-  padding: 133.3px 85.3px;
+  padding: 80px;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
   margin-right: 100px;
-  margin-left: 400px;
+  margin-left: 100px;
   text-align: justify;
 }
 /* About Us Ends */
@@ -462,7 +391,6 @@ input[type="checkbox"] {
 }
 /* Contact End */
 
-/* Footer Start */
 /* Footer Starts */
 .footer--container {
   display: flex;
@@ -505,51 +433,37 @@ input[type="checkbox"] {
     font-size: 68px;
     line-height: 70px;
   }
-  .skills--section--title {
-    font-size: 28px;
-    line-height: 40px;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .skills--section--heading {
-    font-size: 54px;
-    line-height: 70px;
-  }
-  .skills--section--container {
-    gap: 16px;
-  }
-  .skills--section--card {
-    gap: 28px;
-  }
-  .skills--section--card--content {
-    gap: 20px;
-  }
-  .skills--section--title {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  .skills--section--description {
-    font-size: 17.333px;
-    line-height: 27px;
-  }
 }
 
 @media only screen and (max-width: 1200px) {
-  .btn-outline-primary {
-    display: none;
+  .hero--section--img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
   }
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
   }
-  .hero--section--title,
-  .hero--section-description,
-  .footer--content {
+  .hero--section--content p {
     text-align: center;
   }
-  .skills--section--container,
+  .hero--section--title,
+  .hero--section-description {
+    text-align: center;
+  }
+  .hero--section--content--box .btn-primary {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .footer--content {
+    align-items: center;
+  }
   .about--section,
   .portfolio--section--container,
   .portfolio--container-box,
@@ -559,7 +473,6 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-  .skills--section,
   .portfolio--container,
   .hero--section--content,
   .hero--section--content--box {
@@ -568,8 +481,6 @@ input[type="checkbox"] {
   .portfolio--container-box {
     gap: 30px;
   }
-  .skills--section,
-  .testimonial--section,
   .contact--section,
   .footer--container {
     gap: 20px;
@@ -578,14 +489,9 @@ input[type="checkbox"] {
   }
   .about--section {
     gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .testimonial--section--card {
-    padding: 25px;
+    padding-top: 50px;
   }
   .hero--section--title,
-  .skills--section--heading,
   .sections--heading {
     font-size: 35px;
     line-height: 40px;
@@ -605,6 +511,16 @@ input[type="checkbox"] {
   .footer--items > ul {
     padding: 0;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about--section {
+    gap: 20px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -630,7 +546,13 @@ input[type="checkbox"] {
   transition: all ease-in-out 0.2s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
+  .navbar {
+    height: 44px;
+  }
+  .btn-outline-primary {
+    display: none;
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;
@@ -680,5 +602,3 @@ input[type="checkbox"] {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
 }
-
-/* Responsive Screens Ends*/
