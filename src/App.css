@@ -358,7 +358,7 @@ h2 {
   align-self: stretch;
   border-radius: 8px;
   border: 1.333px solid var(--primary);
-  background: var(--white);
+  background: var(--bg-shade);
 }
 select {
   -webkit-appearance: none;
