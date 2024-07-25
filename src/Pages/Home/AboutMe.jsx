@@ -31,6 +31,7 @@ export default function AboutMe() {
             success. Let's connect and explore how we can collaborate to bring
             web solutions to life!
           </p>
+          {/* <button class="btn btn-outline-primary resume">My Resume</button> */}
         </div>
       </div>
     </section>

@@ -83,6 +83,7 @@ p {
   color: var(--github);
   background-color: var(--white);
 }
+
 /* Global CSS Ends */
 /* Main Headings */
 
@@ -358,7 +359,7 @@ h2 {
   align-self: stretch;
   border-radius: 8px;
   border: 1.333px solid var(--primary);
-  background: var(--bg-shade);
+  background: white;
 }
 select {
   -webkit-appearance: none;
