@@ -66,7 +66,7 @@ function Footer() {
             {/* linkedin icon */}
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/sarapezzotta/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -90,7 +90,7 @@ function Footer() {
             {/* github icon */}
             <li>
               <a
-                href="https://github.com/"
+                href="https://github.com/Sarapezzotta20"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
