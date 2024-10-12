@@ -2,10 +2,11 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "./img/todoList.png",
       "title": "To-Do List Application",
-      "description": "Created a dynamic to-do list application with CRUD functionalities using Node.js and Express.js for the back end, and HTML, CSS, and JavaScript for the front end. Utilized MongoDB for data storage and retrieval, implementing RESTful APIs for seamless interaction.",
-      "link": "View In Github"
+      "description": "I have used React to build a todo app that saves and loads to local storage. The React project will include full CRUD functionality: create, read, update, and delete.",
+      "link": "View In Github",
+      "githubLink": "https://github.com/Sarapezzotta20/To-do-list_ReactCRUD"
     },
     {
       "id": "2",
