@@ -44,19 +44,24 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--card--content">
-              <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
-              </div>
               <div className="portfolio--section--img">
                 <img src={item.src} alt="project's image" />
               </div>
-              <p className="text-sm portfolio--link">
+              <div>
+                <h3 className="portfolio--section--title">{item.title}</h3>
+                <p className="text-md" style={{ whiteSpace: "pre-line" }}>
+                  {item.description}
+                </p>
+              </div>
+              <p
+                className="text-sm portfolio--link"
+                style={{ textDecoration: "none" }}
+              >
                 <a
                   href={item.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm portfolio--link"
+                  style={{ textDecoration: "none" }}
                 >
                   {item.link}
                   <svg
@@ -65,6 +70,7 @@ export default function MyPortfolio() {
                     height="16"
                     viewBox="0 0 20 19"
                     fill="none"
+                    style={{ marginLeft: "8px" }}
                   >
                     <path
                       d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
@@ -82,4 +88,14 @@ export default function MyPortfolio() {
       </div>
     </section>
   );
+}
+
+{
+  /* <a
+                  href={item.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+      </a> */
 }

@@ -266,11 +266,12 @@ h1 {
   width: 100%;
 }
 .portfolio--section--img {
-  border-radius: 8px;
   width: 100%;
 }
 .portfolio--section--img > img {
   width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 .portfolio--section--card {
   display: flex;
@@ -278,7 +279,7 @@ h1 {
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
-  background: #f7e0d5;
+  background: #fff;
   /* color options: #f9f7f3, #ffe5d9 */
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   border-top-left-radius: 12px;
@@ -308,6 +309,7 @@ h1 {
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
+
 /* Portfolio Ends */
 
 /* Contact starts */
