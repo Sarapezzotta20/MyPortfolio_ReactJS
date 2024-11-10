@@ -271,7 +271,7 @@ h1 {
 .portfolio--section--img > img {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 12px; 
 }
 .portfolio--section--card {
   display: flex;

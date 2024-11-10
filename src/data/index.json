@@ -10,10 +10,11 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "./img/SportBlog.png",
       "title": "Blog Platform",
-      "description": "Designed and implemented a blog platform from scratch using the MERN stack (MongoDB, Express.js, React.js, Node.js). Developed user authentication and authorization functionalities, allowing users to create, edit, and delete blog posts securely.",
-      "link": "View In Github"
+      "description": "I have implemented a blog platform from scratch using the MERN stack (MongoDB, Express.js, React.js, Node.js). Developed user authentication and authorization functionalities, allowing users to create, edit, and delete blog posts securely.",
+      "link": "View In Github",
+      "githubLink": "https://github.com/Sarapezzotta20/Blog_App_MERN"
     },
     {
       "id": "3",
