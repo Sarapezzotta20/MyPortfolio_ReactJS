@@ -19,8 +19,8 @@
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Online Quiz Application",
-      "description": "Created an interactive online quiz application using React.js for the front end and Node.js for the back end. Implemented features such as multiple-choice questions, scoring, and feedback mechanisms to enhance user engagement and learning experience.",
+      "title": "Flashcard Quiz Application",
+      "description": "Created an interactive online flashcard quiz application, with multiple question categories, using React while connecting to an external API.",
       "link": "View In Github"
     }
   ]
