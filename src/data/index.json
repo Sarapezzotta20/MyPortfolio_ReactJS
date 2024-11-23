@@ -18,10 +18,11 @@
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "./img/FlashcardQuiz.png",
       "title": "Flashcard Quiz Application",
-      "description": "Created an interactive online flashcard quiz application, with multiple question categories, using React while connecting to an external API.",
-      "link": "View In Github"
+      "description": "Created an interactive online flashcard quiz application using React to further practice using ReactHooks like useState, useEffect and useRef. This flipcard quiz features a correct answer count and multiple question categories implemented through an external API.",
+      "link": "View In Github",
+      "githubLink": "https://github.com/Sarapezzotta20/Flashcard_Quiz_React.js"
     }
   ]
 }
