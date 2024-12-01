@@ -5,8 +5,8 @@
       "src": "./img/todoList.png",
       "title": "To-Do List Application",
       "description": "I have used React to build a todo app that saves and loads to local storage. The React project will include full CRUD functionality: create, read, update, and delete; plus a customizable theme switcher so users can:\n- switch between light/dark mode\n- pick their preferred colors for the app",
-      "link": "View In Github",
-      "githubLink": "https://github.com/Sarapezzotta20/To-do-list_ReactCRUD"
+      "link": "View project",
+      "githubLink": "https://sara-pezzotta-to-do-list-react.netlify.app"
     },
     {
       "id": "2",
@@ -21,8 +21,8 @@
       "src": "./img/FlashcardQuiz.png",
       "title": "Flashcard Quiz Application",
       "description": "Created an interactive online flashcard quiz application using React to further practice using ReactHooks like useState, useEffect and useRef. This flipcard quiz features a correct answer count and multiple question categories implemented through an external API.",
-      "link": "View In Github",
-      "githubLink": "https://github.com/Sarapezzotta20/Flashcard_Quiz_React.js"
+      "link": "View project",
+      "githubLink": "https://sara-pezzotta-flashcard-quiz-react.netlify.app/"
     }
   ]
 }
