@@ -5,10 +5,10 @@ export default function AboutMe() {
         <div className="hero--section--content">
           <h1 className="skills-section--heading">About Me</h1>
           <p className="hero--section-description">
-            Hello! I'm an aspiring Junior Software Developer with a deep passion
-            for coding and a solid foundation in Full Stack Development. My
-            journey into technology is fuelled by a fascination with innovation
-            and a commitment to staying ahead in this ever-evolving field.
+            I'm an aspiring Junior Software Developer with a deep passion for
+            coding and a solid foundation in Full Stack Development. My journey
+            into technology is fuelled by a fascination with innovation and a
+            commitment to staying ahead in this ever-evolving field.
             <br />
             <br /> As a certified Full Stack Developer, I've honed my technical
             abilities through continuous learning and hands-on projects, always
