@@ -20,7 +20,7 @@
       "id": "3",
       "src": "./img/FlashcardQuiz.png",
       "title": "Flashcard Quiz Application",
-      "description": "Created an interactive online flashcard quiz application using React to further practice using ReactHooks like useState, useEffect and useRef. This flipcard quiz features a correct answer count and multiple question categories implemented through an external API.",
+      "description": "Created an interactive online flashcard quiz application using React to further practice using ReactHooks like useState, useEffect and useRef. This flipcard quiz features a correct answer count, multiple-choice questions and question categories implemented through an external API.",
       "link": "View project",
       "githubLink": "https://sara-pezzotta-flashcard-quiz-react.netlify.app/"
     }
