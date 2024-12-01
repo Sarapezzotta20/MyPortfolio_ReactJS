@@ -271,7 +271,7 @@ h1 {
 .portfolio--section--img > img {
   width: 100%;
   height: auto;
-  border-radius: 12px; 
+  border-radius: 12px;
 }
 .portfolio--section--card {
   display: flex;
@@ -428,7 +428,7 @@ input[type="checkbox"] {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
   .hero--section--img {
     width: 80%;
     height: 80%;
